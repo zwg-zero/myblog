@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a4ed958-d67c-443c-856a-211221cbc2f5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.mk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myblog/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myblog/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myblog/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myblog/wsgi.py" />
-    </list>
+    <list default="true" id="1a4ed958-d67c-443c-856a-211221cbc2f5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
