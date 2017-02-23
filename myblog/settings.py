@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'taggit',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -111,3 +112,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Email sender setting
+EMAIL_HOST = 'smtp.sina.com'
+EMAIL_HOST_USER = 'yx_gaojing@sina.com'
+EMAIL_HOST_PASSWORD = 'EI_FM_9k-li8'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
