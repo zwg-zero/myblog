@@ -42,6 +42,7 @@ INSTALLED_APPS = (
     'taggit',
     'django.contrib.sites',
     'django.contrib.sitemaps',
+    'haystack',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -122,4 +123,12 @@ EMAIL_HOST_USER = 'yx_gaojing@sina.com'
 EMAIL_HOST_PASSWORD = 'EI_FM_9k-li8'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+# added to enable django-haystack
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.solr_backend.SolrEngine',
+        'URL': 'http://127.0.0.1:8983/solr/blog'
+    },
+}
 
